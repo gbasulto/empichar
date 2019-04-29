@@ -4,7 +4,7 @@ empichar
 ========
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gbasulto/empichar?branch=master&svg=true)](https://ci.appveyor.com/project/gbasulto/empichar) <!-- badges: end -->
+[![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gbasulto/empichar?branch=master&svg=true)](https://ci.appveyor.com/project/gbasulto/empichar) [![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master) <!-- badges: end -->
 
 The goal of empichar is to ...
 

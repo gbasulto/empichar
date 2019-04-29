@@ -17,5 +17,6 @@ Imports:
     Rcpp
 Suggests: 
     testthat (>= 2.1.0),
-    spelling
+    spelling,
+    covr
 Language: en-US
