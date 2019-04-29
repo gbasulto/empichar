@@ -4,7 +4,8 @@ empichar
 ========
 
 <!-- badges: start -->
-<!-- badges: end -->
+[![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) <!-- badges: end -->
+
 The goal of empichar is to ...
 
 Installation
