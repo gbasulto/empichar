@@ -17,3 +17,7 @@ ecf_cpp <- function(t, smp) {
     .Call('_empichar_ecf_cpp', PACKAGE = 'empichar', t, smp)
 }
 
+# Register entry points for exported C++ functions
+methods::setLoadAction(function(ns) {
+    .Call('_empichar_RcppExport_registerCCallable', PACKAGE = 'empichar')
+})
