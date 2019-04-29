@@ -31,3 +31,8 @@ test_that("real number", {
   out <- ecf_imag(0, rnorm(10))
   expect_true(is.numeric(out))
 })
+
+test_that("error when input is incorrect", {
+  expect_error(ecf_imag(0, "drumpf"))
+})
+

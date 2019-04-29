@@ -31,3 +31,7 @@ test_that("complex number", {
   out <- ecf(0, rnorm(10))
   expect_true(is.complex(out))
 })
+
+test_that("error when input is incorrect", {
+  expect_error(ecf(0, "drumpf"))
+})

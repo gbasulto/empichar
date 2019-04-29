@@ -16,9 +16,6 @@
 ##' characteristic function.
 ##'
 ##' @examples
-##' ## See complete examples in the html vignette:
-##' ## browseVignettes(package = "empichar")
-##'
 ##' library(empichar)
 ##' t <- seq(-10, 10, 0.05)
 ##' X <- rnorm(150)
@@ -81,9 +78,6 @@ ecf_real <- function(t, smp){
 ##'     characteristic function.
 ##'
 ##' @examples
-##' ## See complete examples in the html vignette:
-##' ## browseVignettes(package = "empichar")
-##'
 ##' library(empichar)
 ##' t <- seq(-10, 10, 0.05)
 ##' X <- rnorm(150, mean = 1)
@@ -145,9 +139,6 @@ ecf_imag <- function(t, smp){
 ##' characteristic function.
 ##'
 ##' @examples
-##' ## See complete examples in the html vignette:
-##' ## browseVignettes(package = "empichar")
-##'
 ##' library(empichar)
 ##' t <- seq(-10, 10, 0.05)
 ##' X <- rnorm(150)
@@ -208,9 +199,6 @@ ecf_mod <- function(t, smp){
 ##'     characteristic function.
 ##'
 ##' @examples
-##' ## See complete examples in the html vignette:
-##' ## browseVignettes(package = "empichar")
-##'
 ##' library(empichar)
 ##' t <- seq(-10, 10, 0.05)
 ##' X <- rnorm(150, mean = 1)

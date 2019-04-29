@@ -31,3 +31,7 @@ test_that("positive number", {
   out <- ecf_mod(1, rnorm(10))
   expect_true(out >= 0)
 })
+
+test_that("error when input is incorrect", {
+  expect_error(ecf_mod(0, "drumpf"))
+})

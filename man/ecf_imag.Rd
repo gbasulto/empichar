@@ -25,9 +25,6 @@ This function must receive matrices or vectors. It is a wrapper
 function that allows more general inputs.
 }
 \examples{
-## See complete examples in the html vignette:
-## browseVignettes(package = "empichar")
-
 library(empichar)
 t <- seq(-10, 10, 0.05)
 X <- rnorm(150, mean = 1)
