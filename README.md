@@ -6,7 +6,12 @@ empichar
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gbasulto/empichar?branch=master&svg=true)](https://ci.appveyor.com/project/gbasulto/empichar) [![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master) <!-- badges: end -->
 
-The goal of empichar is to evaluate the empirical characteristic function meeting the following criteria: 1. Allow the `C++` functions to be imported in other `R` packages. 1. Make a fast evaluation (using `RcppArmadillo`). 1. Check the dimensions of the input arguments. 1. If desired, compute only the real part, imaginary part or modulus of the empirical characteristic function (faster than taking the real part of the empirical characteristic function).
+The goal of empichar is to evaluate the empirical characteristic function meeting the following criteria:
+
+1.  Allow the `C++` functions to be imported in other `R` packages.
+2.  Make a fast evaluation (using `RcppArmadillo`).
+3.  Check the dimensions of the input arguments.
+4.  If desired, compute only the real part, imaginary part or modulus of the empirical characteristic function (faster than taking the real part of the empirical characteristic function).
 
 Installation
 ------------
