@@ -13,3 +13,8 @@
 ## Additional note
 
 Passes on Travis, AppVeyor and local Windows 10 computes without errors, warnings or notes.
+
+The note in win_builder is:
+
+- checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Guillermo Basulto-Elias <guillermobasulto@gmail.com>'
