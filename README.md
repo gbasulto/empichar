@@ -4,7 +4,7 @@ empichar
 ========
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gbasulto/empichar?branch=master&svg=true)](https://ci.appveyor.com/project/gbasulto/empichar) [![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master) [![CRAN status](https://www.r-pkg.org/badges/version/empichar)](https://cran.r-project.org/package=empichar) <!-- badges: end -->
+[![Travis build status](https://travis-ci.org/gbasulto/empichar.svg?branch=master)](https://travis-ci.org/gbasulto/empichar) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gbasulto/empichar?branch=master&svg=true)](https://ci.appveyor.com/project/gbasulto/empichar) [![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master) [![CRAN status](https://www.r-pkg.org/badges/version/empichar)](https://cran.r-project.org/package=empichar) <!-- badges: end --> <!-- -->
 
 The goal of empichar is to evaluate the empirical characteristic function meeting the following criteria:
 
@@ -35,14 +35,4 @@ Available functions
 Documentation
 -------------
 
-I will add a vignette later on. Meanwhile, consult the documentation with
-
-``` r
-library(empichar)
-## basic example code
-? ecf
-#> starting httpd help server ... done
-? ecf_real
-? ecf_mod
-? ecf_imag
-```
+I will add a vignette later on. Meanwhile, consult the documentation with `help("ecf", "empichar")`, `help("ecf_real", "empichar")`, `help("ecf_imag", "empichar")`, `help("ecf_mod", "empichar")`.
