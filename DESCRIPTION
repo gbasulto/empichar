@@ -3,7 +3,7 @@ Type: Package
 Title: Evaluates the empirical characteristic function for multivariate samples
 Version: 1.0.0
 Authors@R: person("Guillermo", "Basulto-Elias", email = "guillermobasulto@gmail.com", role = c("aut", "cre"))
-Description: Evaluate the empirical characteristic function of univariate and multivariate samples.
+Description: Evaluates the empirical characteristic function of univariate and multivariate samples.
     This package uses 'RcppArmadillo' for fast evaluation. It is also possible to export the code to be used in other packages at 'C++' level.
 License: MIT + file LICENSE
 Encoding: UTF-8
