@@ -35,3 +35,11 @@ test_that("positive number", {
 test_that("error when input is incorrect", {
   expect_error(ecf_mod(0, "drumpf"))
 })
+
+test_that("error when dimensions are different", {
+  expect_error(ecf_mod(matrix(1:12, 3, 4), matrix(1:12, 4, 3)))
+})
+
+test_that("error when an entry is an 3D-array", {
+  expect_error(ecf_mod(array(1:24, 2:4), 1:3))
+})
