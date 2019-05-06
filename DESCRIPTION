@@ -1,6 +1,6 @@
 Package: empichar
 Type: Package
-Title: Evaluates the empirical characteristic function for multivariate samples
+Title: Evaluates the Empirical Characteristic Function for Multivariate Samples
 Version: 1.0.0
 Authors@R: person("Guillermo", "Basulto-Elias", email = "guillermobasulto@gmail.com", role = c("aut", "cre"))
 Description: Evaluates the empirical characteristic function of univariate and multivariate samples.
