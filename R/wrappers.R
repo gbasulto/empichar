@@ -9,8 +9,8 @@
 ##' This function must receive matrices or vectors. It is a wrapper
 ##' function that allows more general inputs.
 ##'
-##' @param t mxd matrix where the function will be evaluated.
-##' @param smp nxd matrix with sample size if size n.
+##' @param t m x d matrix where the function will be evaluated.
+##' @param smp n x d matrix with sample size if size n.
 ##'
 ##' @return A vector of size m with the real part of the empirical
 ##' characteristic function.
@@ -71,8 +71,8 @@ ecf_real <- function(t, smp){
 ##' This function must receive matrices or vectors. It is a wrapper
 ##' function that allows more general inputs.
 ##'
-##' @param t mxd matrix where the function will be evaluated.
-##' @param smp nxd matrix with sample size if size n.
+##' @param t m x d matrix where the function will be evaluated.
+##' @param smp n x d matrix with sample size if size n.
 ##'
 ##' @return A vector of size m with the imaginary part of the empirical
 ##'     characteristic function.
@@ -132,8 +132,8 @@ ecf_imag <- function(t, smp){
 ##' This function must receive matrices or vectors. It is a wrapper
 ##' function that allows more general inputs.
 ##'
-##' @param t mxd matrix where the function will be evaluated.
-##' @param smp nxd matrix with sample size if size n.
+##' @param t m x d matrix where the function will be evaluated.
+##' @param smp n x d matrix with sample size if size n.
 ##'
 ##' @return A vector of size m with the modulus of the empirical
 ##' characteristic function.
@@ -192,8 +192,8 @@ ecf_mod <- function(t, smp){
 ##' This function must receive matrices or vectors. It is a wrapper
 ##' function that allows more general inputs.
 ##'
-##' @param t mxd matrix where the function will be evaluated.
-##' @param smp nxd matrix with sample size if size n.
+##' @param t m x d matrix where the function will be evaluated.
+##' @param smp n x d matrix with sample size if size n.
 ##'
 ##' @return A complex vector of size m with the empirical
 ##'     characteristic function.

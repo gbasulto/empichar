@@ -7,9 +7,9 @@
 ecf_imag(t, smp)
 }
 \arguments{
-\item{t}{mxd matrix where the function will be evaluated.}
+\item{t}{m x d matrix where the function will be evaluated.}
 
-\item{smp}{nxd matrix with sample size if size n.}
+\item{smp}{n x d matrix with sample size if size n.}
 }
 \value{
 A vector of size m with the imaginary part of the empirical
