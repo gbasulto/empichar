@@ -9,6 +9,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // ecf_re_cpp
 arma::vec ecf_re_cpp(const arma::mat& t, const arma::mat& smp);
 static SEXP _empichar_ecf_re_cpp_try(SEXP tSEXP, SEXP smpSEXP) {
