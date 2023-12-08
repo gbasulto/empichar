@@ -19,3 +19,5 @@ Suggests:
     spelling,
     covr
 Language: en-US
+URL: https://github.com/gbasulto/empichar
+BugReports: https://github.com/gbasulto/empichar/issues
