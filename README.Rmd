@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 # empichar
 
 <!-- badges: start -->
-[![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://app.codecov.io/gh/gbasulto/empichar?branch=master)
 [![CRAN status](https://www.r-pkg.org/badges/version/empichar)](https://cran.r-project.org/package=empichar)
 <!-- badges: end -->
 <!-- -->

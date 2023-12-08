@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Codecov test
-coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://codecov.io/gh/gbasulto/empichar?branch=master)
+coverage](https://codecov.io/gh/gbasulto/empichar/branch/master/graph/badge.svg)](https://app.codecov.io/gh/gbasulto/empichar?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/empichar)](https://cran.r-project.org/package=empichar)
 <!-- badges: end --> <!-- -->
